@@ -1,0 +1,74 @@
+:root{
+    --main-c:#fdd72d;
+    --border-r:.2rem;
+}
+
+html *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-size: 1.1rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrap-cta{
+    padding: 1.5rem;
+}
+
+.cta-a{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: var(--main-c);
+    padding: 0.5rem 1rem;
+    border-radius: var(--border-r);
+
+}
+
+h1{
+     font-size: 2.8rem;
+
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-siza: 2.2rem;
+}
+
+.header-landing{
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+    padding: 0.25rem;
+}
+
+.logo-header{
+    max-width: 35px;
+    height: 100%;
+    width: 100%;
+}
+
+.hero-section{
+    height: 90vh;
+    background: url(https://i.pinimg.com/originals/43/84/7f/43847f648cb9b9f47294a82584f68b87.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: rgba(106,141,163,0.7);
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+
+}
+
+.wrap-hero-sectio{
+    max-width: 600px;
+    color: #ffffff;
+    padding: 15%;
+}
